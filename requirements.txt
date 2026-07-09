@@ -1,0 +1,27 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── Environment & config ──────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── IBM watsonx.ai SDK ────────────────────────────────────────────────────────
+ibm-watsonx-ai>=1.1.2
+ibm-cloud-sdk-core>=3.18.0
+
+# ── Exa neural search ─────────────────────────────────────────────────────────
+exa-py>=1.1.0
+
+# ── PDF ingestion ─────────────────────────────────────────────────────────────
+pymupdf>=1.24.0          # fitz — fast, accurate PDF text extraction
+pypdf>=4.2.0             # fallback parser
+
+# ── Text processing / embeddings ─────────────────────────────────────────────
+tiktoken>=0.7.0          # token counting for context window management
+numpy>=1.26.0
+scikit-learn>=1.4.0      # cosine similarity for local retrieval
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+requests>=2.31.0
+werkzeug>=3.0.0
+gunicorn>=22.0.0         # production WSGI server
